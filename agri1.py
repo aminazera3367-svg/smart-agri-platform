@@ -1,4 +1,13 @@
 import streamlit as st
+
+# --- Page Configuration ---
+st.set_page_config(
+    page_title="Smart Agri-AI Platform", 
+    layout="wide", 
+    page_icon="🌱",
+    initial_sidebar_state="expanded"
+)
+
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -34,14 +43,6 @@ from modules.storage import (
 )
 from modules.voice_assistant import answer_farmer_question, transcribe_audio_bytes
 from modules.weather_service import get_real_weather
-
-# --- Page Configuration ---
-st.set_page_config(
-    page_title="Smart Agri-AI Platform", 
-    layout="wide", 
-    page_icon="🌱",
-    initial_sidebar_state="expanded"
-)
 
 # --- Custom CSS for "Visually Appealing" Design ---
 st.markdown("""

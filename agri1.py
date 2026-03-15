@@ -1,4 +1,11 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="Smart Agri Platform",
+    page_icon="🌱",
+    layout="wide",
+)
+import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px

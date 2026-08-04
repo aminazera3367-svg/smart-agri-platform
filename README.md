@@ -37,3 +37,4 @@ For live mandi data:
 - Do not include `.venv/` in the zip.
 - If you later add trained disease model files, include a `models/` folder.
 - The sidebar shows whether weather and mandi services are running in `Live` or `Fallback` mode.
+- <!-- trigger badge update -->
